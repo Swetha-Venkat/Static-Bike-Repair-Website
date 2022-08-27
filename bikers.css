@@ -1,0 +1,138 @@
+html{
+    background-image: linear-gradient(180deg, #FC5E55,#FA4083); 
+    height: 100%;
+}
+body{
+        background-image: url('C:/Users/HP/Desktop/HTML AND CSS/DANIEL WALTER SCOTT - RESPONSIVE WEB DESIGN ESSENTIALS COURSE/EXERCISE FILES/Exercise Files - Web Essentials/Project 2 - Bike Repairs/image-lion-background.png');
+        background-position: top center; 
+        background-repeat: no-repeat;
+        color: white;
+}
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    min-height: 100px;
+}
+nav{
+    display: flex;
+    float: right;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+a{
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: #FC5E55;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+main{
+    min-height: 200px;
+    display: flex;
+}
+main img{
+    width: 420px;
+    height: 300px;
+    padding: 30px;
+    padding-right: 0px;
+}
+main p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    padding: 30px;
+    padding-left: 40px;
+    font-weight: 10;
+}
+
+span{
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+}
+.cards{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1 {
+    background-image: url('C:/Users/HP/Desktop/HTML AND CSS/DANIEL WALTER SCOTT - RESPONSIVE WEB DESIGN ESSENTIALS COURSE/EXERCISE FILES/Exercise Files - Web Essentials/Project 2 - Bike Repairs/image-background-card1.jpg');
+    min-height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+.card1 img{
+    margin: 20px 100px;
+    margin-bottom: 0px;
+}
+.card1 h2, .card1 p{
+    color: white;
+    text-align: center;
+}
+.card1 p{
+    padding: 10px;
+    font-size: 15px;
+}
+.card2 {
+    background-image: url('C:/Users/HP/Desktop/HTML AND CSS/DANIEL WALTER SCOTT - RESPONSIVE WEB DESIGN ESSENTIALS COURSE/EXERCISE FILES/Exercise Files - Web Essentials/Project 2 - Bike Repairs/image-background-card2.jpg');
+    min-height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+.card2 img{
+    margin: 20px 100px;
+    margin-bottom: 0px;
+}
+.card2 h2, .card2 p{
+    color: white;
+    text-align: center;
+}
+.card2 p{
+    padding: 10px;
+    font-size: 15px;
+}
+.card3 {
+    background-image: url('C:/Users/HP/Desktop/HTML AND CSS/DANIEL WALTER SCOTT - RESPONSIVE WEB DESIGN ESSENTIALS COURSE/EXERCISE FILES/Exercise Files - Web Essentials/Project 2 - Bike Repairs/image-background-card3.jpg');
+    min-height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+.card3 img{
+    margin: 20px 100px;
+    margin-bottom: 0px;
+}
+.card3 h2, .card3 p{
+    color: white;
+    text-align: center;
+}
+.card3 p{
+    padding: 10px;
+    font-size: 15px;
+}
+.testimonials {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    
+}
+.tbox p:last-of-type {
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+
+

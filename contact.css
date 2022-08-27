@@ -1,0 +1,141 @@
+html{
+    background-image: linear-gradient(180deg, #FC5E55,#FA4083);
+    height: 100%;
+}
+body{
+        background-image: url('C:/Users/HP/Desktop/HTML AND CSS/DANIEL WALTER SCOTT - RESPONSIVE WEB DESIGN ESSENTIALS COURSE/EXERCISE FILES/Exercise Files - Web Essentials/Project 2 - Bike Repairs/image-lion-background.png');
+        background-position: top center; 
+        background-repeat: no-repeat;
+        color: white;
+}
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    min-height: 100px;
+}
+nav{
+    display: flex;
+    float: right;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+a{
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: #FC5E55;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+h1{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+    padding-left: 70px;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+section p{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 70px;
+    font-size: 15px;
+}
+.contact-form{
+    color: white;
+    padding-left: 70px;
+}
+input[type=text],input[type=email],textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}
+input[type=radio]{
+    width: 15px;
+    height: 15px;
+}
+input[type=submit]{
+    width: 15%;
+    background-color: white;
+    color: #FA4083;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit]:hover{
+    background-color: #FC5E55;
+}
+.cards{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.card1 {
+    background-image: url('C:/Users/HP/Desktop/HTML AND CSS/DANIEL WALTER SCOTT - RESPONSIVE WEB DESIGN ESSENTIALS COURSE/EXERCISE FILES/Exercise Files - Web Essentials/Project 2 - Bike Repairs/image-background-card1.jpg');
+    min-height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+.card1 img{
+    margin: 20px 100px;
+    margin-bottom: 0px;
+}
+.card1 h2, .card1 p{
+    color: white;
+    text-align: center;
+}
+.card1 p{
+    padding: 10px;
+    font-size: 15px;
+}
+.card2 {
+    background-image: url('C:/Users/HP/Desktop/HTML AND CSS/DANIEL WALTER SCOTT - RESPONSIVE WEB DESIGN ESSENTIALS COURSE/EXERCISE FILES/Exercise Files - Web Essentials/Project 2 - Bike Repairs/image-background-card2.jpg');
+    min-height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+.card2 img{
+    margin: 20px 100px;
+    margin-bottom: 0px;
+}
+.card2 h2, .card2 p{
+    color: white;
+    text-align: center;
+}
+.card2 p{
+    padding: 10px;
+    font-size: 15px;
+}
+.card3 {
+    background-image: url('C:/Users/HP/Desktop/HTML AND CSS/DANIEL WALTER SCOTT - RESPONSIVE WEB DESIGN ESSENTIALS COURSE/EXERCISE FILES/Exercise Files - Web Essentials/Project 2 - Bike Repairs/image-background-card3.jpg');
+    min-height: 300px;
+    width: 30%;
+    background-repeat: no-repeat;
+}
+.card3 img{
+    margin: 20px 100px;
+    margin-bottom: 0px;
+}
+.card3 h2, .card3 p{
+    color: white;
+    text-align: center;
+}
+.card3 p{
+    padding: 10px;
+    font-size: 15px;
+}
